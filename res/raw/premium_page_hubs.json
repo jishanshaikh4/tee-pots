@@ -1,0 +1,448 @@
+{
+    "body": [
+        {
+            "component": {
+                "id": "premiumPage:gradient"
+            },
+            "custom": {
+                "gradient": {
+                    "startColor": "#006450",
+                    "endColor": "#19E68C",
+                    "direction": "topLeftBottomRight"
+                }
+            },
+            "children": [
+                {
+                    "component": {
+                        "id": "premiumPage:header",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "Get more out of your music with Premium"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:gradient"
+                    },
+                    "custom": {
+                        "gradient": {
+                            "startColor": "#00121212",
+                            "endColor": "#ff121212",
+                            "direction": "topBottom"
+                        }
+                    },
+                    "children": [
+                        {
+                            "component": {
+                                "id": "premiumPage:carousel"
+                            },
+                            "children": [
+                                {
+                                    "component": {
+                                        "id": "premiumPage:valueCard",
+                                        "category": "card"
+                                    },
+                                    "children": [
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardFree",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Free",
+                                                "subtitle": "Ad breaks"
+                                            }
+                                        },
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardPremium",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Premium",
+                                                "subtitle": "Ad-free music"
+                                            },
+                                            "custom": {
+                                                "gradient": {
+                                                    "startColor": "#006450",
+                                                    "endColor": "#19E68C"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": {
+                                        "id": "premiumPage:valueCard",
+                                        "category": "card"
+                                    },
+                                    "children": [
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardFree",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Free",
+                                                "subtitle": "Play in shuffle"
+                                            }
+                                        },
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardPremium",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Premium",
+                                                "subtitle": "Play any song"
+                                            },
+                                            "custom": {
+                                                "gradient": {
+                                                    "startColor": "#006450",
+                                                    "endColor": "#19E68C"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": {
+                                        "id": "premiumPage:valueCard",
+                                        "category": "card"
+                                    },
+                                    "children": [
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardFree",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Free",
+                                                "subtitle": "6 skips per hour"
+                                            }
+                                        },
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardPremium",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Premium",
+                                                "subtitle": "Unlimited skips"
+                                            },
+                                            "custom": {
+                                                "gradient": {
+                                                    "startColor": "#006450",
+                                                    "endColor": "#19E68C"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": {
+                                        "id": "premiumPage:valueCard",
+                                        "category": "card"
+                                    },
+                                    "children": [
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardFree",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Free",
+                                                "subtitle": "Streaming only"
+                                            }
+                                        },
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardPremium",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Premium",
+                                                "subtitle": "Offline listening"
+                                            },
+                                            "custom": {
+                                                "gradient": {
+                                                    "startColor": "#006450",
+                                                    "endColor": "#19E68C"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "component": {
+                                        "id": "premiumPage:valueCard",
+                                        "category": "card"
+                                    },
+                                    "children": [
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardFree",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Free",
+                                                "subtitle": "Basic audio quality"
+                                            }
+                                        },
+                                        {
+                                            "component": {
+                                                "id": "premiumPage:valueCardPremium",
+                                                "category": "card"
+                                            },
+                                            "text": {
+                                                "title": "Premium",
+                                                "subtitle": "Extreme audio quality"
+                                            },
+                                            "custom": {
+                                                "gradient": {
+                                                    "startColor": "#006450",
+                                                    "endColor": "#19E68C"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "component": {
+                                "id": "premiumPage:offerCta",
+                                "category": "row"
+                            },
+                            "text": {
+                                "title": "GET PREMIUM"
+                            },
+                            "events": {
+                                "click": {
+                                    "name": "upsell:iap",
+                                    "data": {
+                                        "uri": "https://www.spotify.com/redirect/generic/?redirect_key=android_premium"
+                                    }
+                                }
+                            },
+                            "logging": {
+                                "ui:group": "free-vs-premium",
+                                "ui:source": "full-price-premium"
+                            }
+                        },
+                        {
+                            "component": {
+                                "id": "premiumPage:offerLegalText",
+                                "category": "row"
+                            },
+                            "text": {
+                                "title": "<a href=\"https://www.spotify.com/legal/end-user-agreement/\">Terms and Conditions</a> apply."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "component": {
+                "id": "premiumPage:currentPlanCard",
+                "category": "row"
+            },
+            "text": {
+                "title": "Spotify Free",
+                "subtitle": "CURRENT PLAN"
+            }
+        },
+        {
+            "component": {
+                "id": "premiumPage:offerCard",
+                "category": "card"
+            },
+            "children": [
+                {
+                    "component": {
+                        "id": "premiumPage:offerTitlePricePeriod",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "Spotify Premium",
+                        "subtitle": "$9.99",
+                        "accessory": "/ MONTH"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerDescription",
+                        "category": "row"
+                    },
+                    "text": {
+                        "description": "Ad-free music • Unlimited skips • Play any song • Offline listening"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerCta",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "GET PREMIUM"
+                    },
+                    "events": {
+                        "click": {
+                            "name": "upsell:iap",
+                            "data": {
+                                "uri": "https://www.spotify.com/redirect/generic/?redirect_key=android_premium"
+                            }
+                        }
+                    },
+                    "logging": {
+                        "ui:group": "offers",
+                        "ui:source": "full-price-premium"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerLegalText",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "<a href=\"https://www.spotify.com/legal/end-user-agreement/\">Terms and Conditions</a> apply."
+                    }
+                }
+            ],
+            "custom" : {
+                "gradient": {
+                    "startColor": "#045545",
+                    "endColor": "#18BB74"
+                }
+            }
+        },
+        {
+            "component": {
+                "id": "premiumPage:offerCard",
+                "category": "card"
+            },
+            "children": [
+                {
+                    "component": {
+                        "id": "premiumPage:offerTitlePricePeriod",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "Premium for Students + Hulu and SHOWTIME",
+                        "subtitle": "$4.99",
+                        "accessory": "/ MONTH"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerDescription",
+                        "category": "row"
+                    },
+                    "text": {
+                        "description": "3 apps, 1 low price • Hit shows and movies • All Premium benefits"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerCta",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "GET STUDENT PLAN"
+                    },
+                    "events": {
+                        "click": {
+                            "name": "upsell:iap",
+                            "data": {
+                                "uri": "https://www.spotify.com/purchase/campaign/sheerid/"
+                            }
+                        }
+                    },
+                    "logging": {
+                        "ui:group": "offers"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerLegalText",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "This plan is only available to students currently enrolled at eligible institutions in the US. <a href=\"https://www.spotify.com/legal/student-tier-terms-and-conditions/\">Learn more</a>."
+                    }
+                }
+            ],
+            "custom" : {
+                "gradient": {
+                    "startColor": "#F59B23",
+                    "endColor": "#C87D55"
+                }
+            }
+        },
+        {
+            "component": {
+                "id": "premiumPage:offerCard",
+                "category": "card"
+            },
+            "children": [
+                {
+                    "component": {
+                        "id": "premiumPage:offerTitlePricePeriod",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "Premium for Family",
+                        "subtitle": "$14.99",
+                        "accessory": "/ MONTH"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerDescription",
+                        "category": "row"
+                    },
+                    "text": {
+                        "description": "Up to 6 individual accounts • One simple bill • All Premium benefits • Keep your saved music"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerCta",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "GET FAMILY PLAN"
+                    },
+                    "events": {
+                        "click": {
+                            "name": "upsell:iap",
+                            "data": {
+                                "uri": "https://www.spotify.com/family/purchase/"
+                            }
+                        }
+                    },
+                    "logging": {
+                        "ui:group": "offers"
+                    }
+                },
+                {
+                    "component": {
+                        "id": "premiumPage:offerLegalText",
+                        "category": "row"
+                    },
+                    "text": {
+                        "title": "<a href=\"https://www.spotify.com/legal/family-plan/\">Terms and Conditions</a> apply."
+                    }
+                }
+            ],
+            "custom" : {
+                "gradient": {
+                    "startColor": "#1E3264",
+                    "endColor": "#AF2896"
+                }
+            }
+        }
+    ]
+}
